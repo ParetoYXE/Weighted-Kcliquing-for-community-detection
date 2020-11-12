@@ -34,7 +34,7 @@ Overall my results for the algorithm were very promising. Initially without appl
 
 In this instance I generated the K-Cliques using a k-size of 4.
 
-![](https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.0-9/95017695_1971573072987593_8617156936535638016_n.png?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=FEWjDEcXGZQAX8MubCx&_nc_ht=scontent.fyyc3-1.fna&oh=e07011d4766a1109ffde205e7c052021&oe=5ED3F8D1)
+![Screenshot](withoutWeights.png)
 
 Fig 2. Without Weights
 
@@ -42,17 +42,17 @@ Though this was sufficient in identifying shared sub communities it did little t
 
 For instance I personally know that nodes 1,2 and 3 are all roommates hence the close clustering due to heavy weighted edges from constant interactions. This was a substructure that was not clearly visible without the weights as nodes 4 and 5 looked as if they could have also been roommates. SImilarly nodes 4 and 10 are roommates along with 6 and 9. All these sub structures among the wider network would have been easily missed without the weights but become fairly evident with them applied.
 
-![](https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.0-9/95044232_1971573149654252_2596445813630566400_n.png?_nc_cat=101&_nc_sid=8024bb&_nc_ohc=Z1a3poC5ahAAX_7jiJP&_nc_ht=scontent.fyyc3-1.fna&oh=f805880382eedb658c398e6b75e6b867&oe=5ED41C6A)
+![Screenshot](withWeights.png)
 
 Fig 3. With Weight
 
 The only other factor within the experimental results worth mentioning relates to the size of the K-cliques. Initially I produced multiple visualizations using a loop and an incrementing K_Size value to find the best clique size for this particular graph, which happened to be 4, but further experimentation to find a general solution to the ideal k_size would be worth investigating. Below I have included further figures showing the different clusterings and communities depending on K_size.  Otherwise I feel confident that the research performed under the project has further solidified the advantage of K_Cliquing for community finding along with the advantage of using weighted edges to reveal further sub-structures within communities. 
 
-![](https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.0-9/95633966_1971573182987582_8925562882905604096_n.png?_nc_cat=100&_nc_sid=8024bb&_nc_ohc=TendNVGPCTAAX-6JMyv&_nc_ht=scontent.fyyc3-1.fna&oh=0fe3f72d0dc1274ea19964842b7ce77a&oe=5ED3A16A)
+![Screenshot](k2.png)
 
-Fig 5. K_Size = 2
+Fig 4. K_Size = 2
 
-![](https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.0-9/95662982_1971573256320908_610204575181307904_n.png?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=UuLgPLmP_8kAX-q2Cjl&_nc_ht=scontent.fyyc3-1.fna&oh=5ee9a6269e11fdf73dbc26c1b9bdaaff&oe=5ED11AEA)
+![Screenshot](k3.png)
 
-Fig 6. K_Size = 3
+Fig 5. K_Size = 3
 
