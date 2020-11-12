@@ -20,7 +20,7 @@ Nodes determined to be within the same community will share a color with nodes e
 
 Within my initial proposal I speculated on two attributes that would improve the overall effectiveness of k-cliques, one was to use a directional graph rather than a binary to represent social introductions and the other was to assign weighted totals to each edge to track the number of interactions. Though tracking edge weights did not prove to be an issue I encountered issues continually tracking who initiated the interaction and how to best scale its influence. For the edges the weight was linearly tracked to the number of interactions which produced a reasonable approximation of two nodes influence on each other and how their separate communities interacted, no such clear method existed for introducing a directional vector and since I did not wish to skew results I have decided to not incorporate it as a feature in this project.
 
-![](https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.0-9/95930841_1971573019654265_1353266395932000256_n.png?_nc_cat=106&_nc_sid=8024bb&_nc_ohc=ekJ91DB3l5oAX8FzvNY&_nc_ht=scontent.fyyc3-1.fna&oh=605dac34dfd67606f813eaa3d4638ffa&oe=5ED1184A)
+![Screenshot](Initial.png)
 
 Fig 1. Initial Rendering of Data Set.
 
