@@ -1,4 +1,4 @@
-# Weighted_Kcliquing_for_community_detection
+# Weighted Kcliquing for community detection
 A simple program using weighted  K-cliquing Community Detection to produce colored network graphs with nodes clustered by their community.
 
 
